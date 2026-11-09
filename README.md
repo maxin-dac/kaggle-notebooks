@@ -282,14 +282,10 @@ jupyter lab
 
 ## Author & Connect
 
-**Maxime Ndacleu**  
-Data Science & Machine Learning Practitioner
+Maxime NDACLEU - Data Analyst & BI
+
+![GitHub](https://img.shields.io/badge/GitHub-maxin--dac-181717?style=flat&logo=github&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-maximendacleu-0A66C2?style=flat&logo=linkedin&logoColor=white)
 
 - **Kaggle**: [@maximendacleu](https://www.kaggle.com/maximendacleu)
 - **GitHub**: [@maxin-dac](https://github.com/maxin-dac)
-
----
-
-<div align="center">
-  <sub>If you find these notebooks helpful or educational, consider starring this repository and upvoting on Kaggle!</sub>
-</div>

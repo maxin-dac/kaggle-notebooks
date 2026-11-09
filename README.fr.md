@@ -282,14 +282,11 @@ jupyter lab
 
 ## Auteur & Contact
 
-**Maxime Ndacleu**  
-Data Scientist & Machine Learning Practitioner
+Maxime NDACLEU - Data Analyst & BI
+
+![GitHub](https://img.shields.io/badge/GitHub-maxin--dac-181717?style=flat&logo=github&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-maximendacleu-0A66C2?style=flat&logo=linkedin&logoColor=white)
 
 - **Kaggle** : [@maximendacleu](https://www.kaggle.com/maximendacleu)
 - **GitHub** : [@maxin-dac](https://github.com/maxin-dac)
 
----
-
-<div align="center">
-  <sub>Si vous appréciez ces travaux ou les trouvez utiles, n'hésitez pas à laisser une étoile sur GitHub et un upvote sur Kaggle !</sub>
-</div>
