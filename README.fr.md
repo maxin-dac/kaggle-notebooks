@@ -12,7 +12,7 @@
 [![Projets](https://img.shields.io/badge/Projets-9%20Notebooks-success?style=flat)]()
 
 <p align="center">
-  Une sélection de pipelines de Machine Learning, d'architectures de Deep Learning, de prévisions de séries temporelles et d'analyses exploratoires orientées Business Intelligence, développés et validés sur <b>Kaggle</b>.
+  Une sélection de mes notebooks, développés et validés sur <b>Kaggle</b>.
 </p>
 
 </div>

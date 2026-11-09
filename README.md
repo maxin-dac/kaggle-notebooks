@@ -12,7 +12,7 @@
 [![Projects](https://img.shields.io/badge/Projects-9%20Notebooks-success?style=flat)]()
 
 <p align="center">
-  A curated collection of production-grade Machine Learning pipelines, Deep Learning architectures, Time Series forecasting systems, and Business Intelligence exploratory analyses developed and benchmarked on <b>Kaggle</b>.
+  A curated collection of my notebooks, developed and benchmarked on <b>Kaggle</b>.
 </p>
 
 </div>
