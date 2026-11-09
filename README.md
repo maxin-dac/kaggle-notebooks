@@ -252,7 +252,7 @@ kaggle-notebooks/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/maximendacleu/kaggle-notebooks.git
+git clone https://github.com/maxin-dac/kaggle-notebooks.git
 cd kaggle-notebooks
 ```
 
@@ -286,7 +286,7 @@ jupyter lab
 Data Science & Machine Learning Practitioner
 
 - **Kaggle**: [@maximendacleu](https://www.kaggle.com/maximendacleu)
-- **GitHub**: [@maximendacleu](https://github.com/maximendacleu)
+- **GitHub**: [@maxin-dac](https://github.com/maxin-dac)
 
 ---
 
