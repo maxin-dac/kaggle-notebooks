@@ -2,7 +2,10 @@
 
 # Kaggle Data Science & Machine Learning Portfolio
 
-[![Switch to French](https://img.shields.io/badge/Langue-Français-0055A5?style=flat&logo=googletranslate&logoColor=white)](README.fr.md)
+**English** | [Français (French)](README.fr.md)
+
+<br/>
+
 [![Kaggle Profile](https://img.shields.io/badge/Kaggle-maximendacleu-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/maximendacleu)
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat)](LICENSE)
@@ -13,6 +16,9 @@
 </p>
 
 </div>
+
+> [!NOTE]
+> **Language / Langue** : Ce dépôt est documenté en anglais et en français. [Cliquez ici pour accéder à la version en français (README.fr.md)](README.fr.md).
 
 ---
 
