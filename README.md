@@ -22,7 +22,7 @@
 
 ---
 
-## Table of Contents
+## Table of contents
 
 - [Overview & Quick Access](#quick-portfolio-matrix)
 - [Projects by Domain](#projects-by-domain)
@@ -68,6 +68,7 @@
 ### 1. Computer Vision & Deep Learning
 
 #### 👁️ Facial Keypoints Detection with Deep Learning
+
 > **Objective**: Accurately predict 15 facial landmarks (30 coordinates $(x, y)$) on $96 \times 96$ grayscale human face images.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -80,6 +81,7 @@
 ---
 
 #### 🔢 Digit Recognizer - MNIST CNN
+
 > **Objective**: Classify handwritten digits (0 to 9) from the classic MNIST dataset with high test accuracy using modern deep learning architectures.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -94,6 +96,7 @@
 ### 2. Tabular ML & Advanced Regression
 
 #### 🏡 House Prices Prediction (Advanced Regression)
+
 > **Objective**: Forecast the final sales price (`SalePrice`) of residential properties in Ames, Iowa, using an end-to-end ML pipeline with advanced feature engineering and Gradient Boosting.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -117,6 +120,7 @@
 ---
 
 #### 🚢 Titanic: Survival Dynamics & Predictive Modeling
+
 > **Objective**: Conduct in-depth EDA to discover historical survival drivers, translate findings into passenger personas, and build a top-tier ensemble model for survival prediction.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -131,6 +135,7 @@
 ---
 
 #### 🚀 Spaceship Titanic - Machine Learning
+
 > **Objective**: Build an exploratory data analysis and a production-grade machine learning baseline to predict passenger transport into an alternate dimension.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -144,6 +149,7 @@
 ### 3. Time Series Forecasting
 
 #### 📈 Store Sales - Time Series Forecasting
+
 > **Objective**: Predict daily unit sales across thousands of item families sold in 54 Favorita grocery stores throughout Ecuador, fusing seasonal patterns with macroeconomic indicators.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-007ACC?style=flat&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -158,6 +164,7 @@
 ### 4. Business Intelligence & Advanced EDA
 
 #### 🏬 Superstore Sales Analysis
+
 > **Objective**: Conduct a deep-dive commercial audit on multinational retail operations, examining sales volumes, profit margins, discounting strategies, and geographical cost drivers.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -172,6 +179,7 @@
 ---
 
 #### 🎬 YouTube Content Performance: EDA, Machine Learning & Strategy
+
 > **Objective**: Model video performance dynamics and build a predictive classification pipeline for content virality based on audience engagement metrics and metadata.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -188,6 +196,7 @@
 ### 5. NLP & Large Language Models
 
 #### 🤖 LLM Classification Finetuning (Chatbot Arena)
+
 > **Objective**: Conduct rigorous Exploratory Data Analysis and statistical preference modeling on the Kaggle LLM Chatbot Arena dataset to decode factors influencing human preference between competing generative AI models.
 
 - **Stack**: ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -257,12 +266,14 @@ kaggle-notebooks/
 ## Getting Started Locally
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/maxin-dac/kaggle-notebooks.git
 cd kaggle-notebooks
 ```
 
 ### 2. Create and activate a virtual environment
+
 ```bash
 # On Linux / macOS:
 python3 -m venv venv
@@ -274,12 +285,14 @@ python -m venv venv
 ```
 
 ### 3. Install dependencies
+
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ### 4. Launch Jupyter Lab / Notebook
+
 ```bash
 jupyter lab
 ```

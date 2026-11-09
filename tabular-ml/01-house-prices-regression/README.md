@@ -9,9 +9,11 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat)
 
 ## Objective
+
 Predict final residential home sales prices (`SalePrice`) using an end-to-end Machine Learning pipeline that transforms raw housing attributes into accurate price predictions while identifying underlying economic drivers.
 
-## Top 10 Most Important Features
+## Top 10 most important features
+
 According to the trained `GradientBoostingRegressor`, property value is predominantly driven by quality and living area:
 
 | Rank | Feature | Description | Valuation Impact Type |
@@ -27,5 +29,5 @@ According to the trained `GradientBoostingRegressor`, property value is predomin
 | **9** | `YearRemodAdd` | Remodel date (indicates recent upgrades) | Age / Modernity |
 | **10** | `TotRmsAbvGrd` | Total rooms above grade (excluding bathrooms) | Size / Space |
 
-## Kaggle Link
+## Kaggle link
 Direct link to the notebook: [house-prices-prediction](https://www.kaggle.com/code/maximendacleu/house-prices-prediction)

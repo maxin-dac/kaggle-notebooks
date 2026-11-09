@@ -9,13 +9,16 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat)
 
 ## Objective
+
 Predict 15 facial landmarks (30 coordinates $(x, y)$) on $96 \times 96$ grayscale face images from the Kaggle Facial Keypoints Detection competition.
 
 ## Methodology & Architecture
+
 - **Data Handling**: Custom PyTorch `Dataset` with target normalization and missing coordinate masking/imputation.
 - **Model**: Deep Convolutional Neural Network (CNN) featuring Conv2D layers, Batch Normalization, ReLU activations, Dropout regularization, and Fully Connected regression heads.
 - **Loss Function**: Mean Squared Error (MSE Loss) with Adam optimizer.
 - **Inference**: Rescaling coordinate outputs back to pixel space and overlaying keypoints on unseen test samples.
 
-## Kaggle Link
+## Kaggle link
+
 Direct link to the notebook: [facial-keypoint-detection-with-deep-learning](https://www.kaggle.com/code/maximendacleu/facial-keypoint-detection-with-deep-learning)

@@ -9,9 +9,11 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat)
 
 ## Objective
+
 Predict whether a passenger was transported to an alternate dimension during the spaceship anomaly in the Kaggle Spaceship Titanic competition.
 
 ## Pipeline & Modeling
+
 - **Data Preprocessing**:
   - `ColumnTransformer` bundling numerical and categorical branches.
   - Imputation via `SimpleImputer` (median for numerical amenities, most frequent for categories).
@@ -20,5 +22,6 @@ Predict whether a passenger was transported to an alternate dimension during the
 - **Model**: `RandomForestClassifier` with cross-validated performance tuning.
 - **Evaluation**: Accuracy score, classification report, and ROC/PR curve inspection.
 
-## Kaggle Link
+## Kaggle link
+
 Direct link to the notebook: [spaceship-titanic-machine-learning](https://www.kaggle.com/code/maximendacleu/spaceship-titanic-machine-learning)

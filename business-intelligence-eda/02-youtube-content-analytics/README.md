@@ -11,19 +11,23 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat)
 
 ## Objectives
+
 Provide a rigorous, data-driven approach to deciphering YouTube video dynamics, audience interaction mechanisms, and predicting content virality using Machine Learning across a curated sample of 537 videos.
 
-## Key Empirical Insights
+## Key empirical insights
+
 - **Duration is Critical**: Viral content is significantly shorter, averaging **3:35** (215 seconds). Non-viral videos average over **1 hour 20 minutes** (4,802 seconds). Shorter, high-impact pacing correlates with algorithmic distribution.
 - **The Engagement Dilution Effect**: Non-viral videos maintain a higher average engagement rate (**2.93%**) vs viral hits (**1.76%**), as broader passive audiences dilute relative interaction percentages.
 - **Optimal Publishing Window**: Uploads between **11:00 and 17:00 UTC** (peaking at **14:00 UTC**) capture maximum momentum as North American and European audiences overlap online.
 - **The Viral Threshold**: Statistically identified at **85.9 Million views** (the 95th percentile cutoff).
 
-## Actionable Content Strategy
+## Actionable content strategy
+
 1. **Target the 3-4 minute sweet spot**: Focus on crisp narrative delivery to maximize viewer completion rate.
 2. **Automate upload scheduling**: Stage releases right before the primary global peak active window.
 3. **Frontload Calls-to-Action (CTAs)**: Spark early comments and shares within the opening 30 seconds to trigger YouTube's initial recommendation cascade.
 4. **Pre-screen with ML**: Benchmark title, category, and target duration against the predictive model before release.
 
-## Kaggle Link
+## Kaggle link
+
 Direct link to the notebook: [youtube-video-analytics](https://www.kaggle.com/code/maximendacleu/youtube-video-analytics)

@@ -22,7 +22,7 @@
 
 ---
 
-## Table des Matières
+## Table des matières
 
 - [Vue d'ensemble & Accès Rapide](#matrice-du-portfolio)
 - [Projets par Domaine](#projets-par-domaine)
@@ -68,6 +68,7 @@
 ### 1. Vision par Ordinateur & Deep Learning
 
 #### 👁️ Détection des Points Clés Faciaux avec Deep Learning
+
 > **Objectif** : Prédire précisément 15 points de repère faciaux (soit 30 coordonnées $(x, y)$) sur des images de visages en niveaux de gris de dimensions $96 \times 96$.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -80,6 +81,7 @@
 ---
 
 #### 🔢 Reconnaissance de Chiffres Manuscrits - MNIST CNN
+
 > **Objectif** : Classifier avec une grande précision les chiffres manuscrits (de 0 à 9) à partir d'images en niveaux de gris à l'aide d'un réseau de neurones convolutif (CNN).
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -94,6 +96,7 @@
 ### 2. Machine Learning Tabulaire & Régression Avancée
 
 #### 🏡 Prédiction des Prix Immobiliers (House Prices)
+
 > **Objectif** : Estimer avec précision le prix de vente final (`SalePrice`) de biens résidentiels grâce à un pipeline de Machine Learning de bout en bout et un modèle de Gradient Boosting.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -117,6 +120,7 @@
 ---
 
 #### 🚢 Titanic : Dynamiques de Survie & Modélisation Prédictive
+
 > **Objectif** : Transformer les données historiques de la catastrophe en insights analytiques précis et construire un ensemble de modèles prédictifs haute performance.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -131,6 +135,7 @@
 ---
 
 #### 🚀 Spaceship Titanic - Machine Learning
+
 > **Objectif** : Concevoir une analyse exploratoire et une baseline de Machine Learning robuste pour prédire si un passager a été transporté dans une dimension alternative lors de l'anomalie spatiale.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -144,6 +149,7 @@
 ### 3. Séries Temporelles & Prévision
 
 #### 📈 Store Sales - Prévision de Séries Temporelles
+
 > **Objectif** : Prédire les ventes quotidiennes par famille de produits pour 54 magasins de la chaîne Favorita en Équateur, en combinant historique, signaux de calendrier et variables macroéconomiques.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-007ACC?style=flat&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -158,6 +164,7 @@
 ### 4. Business Intelligence & Audit Exploratoire
 
 #### 🏬 Analyse des Ventes Superstore
+
 > **Objectif** : Mener un audit financier et opérationnel approfondi sur un jeu de données retail mondial pour identifier les leviers de rentabilité, déceler les fuites de marge et optimiser la logistique.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -172,6 +179,7 @@
 ---
 
 #### 🎬 Performance de Contenu YouTube : EDA, Machine Learning & Stratégie
+
 > **Objectif** : Comprendre la dynamique de performance des vidéos YouTube à partir de 537 vidéos, analyser l'engagement de l'audience et prédire la probabilité de viralité à l'aide du Machine Learning.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -188,6 +196,7 @@
 ### 5. NLP & Modèles de Langage (LLM)
 
 #### 🤖 Classification et Fine-tuning LLM (Chatbot Arena)
+
 > **Objectif** : Réaliser une analyse exploratoire approfondie sur le jeu de données Kaggle LMSYS Chatbot Arena pour comprendre les dynamiques et facteurs influençant la préférence humaine entre deux réponses de modèles d'IA générative.
 
 - **Stack** : ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat) ![Seaborn](https://img.shields.io/badge/Seaborn-4c72b0?style=flat) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -257,12 +266,14 @@ kaggle-notebooks/
 ## Installation & Démarrage Local
 
 ### 1. Cloner le dépôt
+
 ```bash
 git clone https://github.com/maxin-dac/kaggle-notebooks.git
 cd kaggle-notebooks
 ```
 
 ### 2. Créer et activer un environnement virtuel
+
 ```bash
 # Sur Linux / macOS :
 python3 -m venv venv
@@ -274,12 +285,14 @@ python -m venv venv
 ```
 
 ### 3. Installer les dépendances
+
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ### 4. Démarrer Jupyter Lab
+
 ```bash
 jupyter lab
 ```
