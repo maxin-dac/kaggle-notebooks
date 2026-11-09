@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏆 Kaggle Data Science & Machine Learning Portfolio
+# Kaggle Data Science & Machine Learning Portfolio
 
 [![Switch to French](https://img.shields.io/badge/Langue-Français-0055A5?style=flat&logo=googletranslate&logoColor=white)](README.fr.md)
 [![Kaggle Profile](https://img.shields.io/badge/Kaggle-maximendacleu-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/maximendacleu)
@@ -16,10 +16,10 @@
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
-- [Overview & Quick Access](#-quick-portfolio-matrix)
-- [Projects by Domain](#-projects-by-domain)
+- [Overview & Quick Access](#quick-portfolio-matrix)
+- [Projects by Domain](#projects-by-domain)
   - [1. Computer Vision & Deep Learning](#1-computer-vision--deep-learning)
     - [Facial Keypoints Detection](#-facial-keypoints-detection-with-deep-learning)
     - [Digit Recognizer (MNIST CNN)](#-digit-recognizer---mnist-cnn)
@@ -34,14 +34,14 @@
     - [YouTube Video Performance & Virality Analytics](#-youtube-content-performance-eda-machine-learning--strategy)
   - [5. NLP & Large Language Models](#5-nlp--large-language-models)
     - [LLM Classification & Human Preference Analysis](#-llm-classification-finetuning-chatbot-arena)
-- [Tech Stack Badges](#-tech-stack-overview)
-- [Repository Structure](#-repository-structure)
-- [Getting Started Locally](#-getting-started-locally)
-- [Author & Contact](#-author--connect)
+- [Tech Stack Badges](#tech-stack-overview)
+- [Repository Structure](#repository-structure)
+- [Getting Started Locally](#getting-started-locally)
+- [Author & Contact](#author--connect)
 
 ---
 
-## 🚀 Quick Portfolio Matrix
+## Quick Portfolio Matrix
 
 | Project | Domain | Tech Stack | Kaggle Notebook |
 | :--- | :--- | :--- | :---: |
@@ -57,7 +57,7 @@
 
 ---
 
-## 📂 Projects by Domain
+## Projects by Domain
 
 ### 1. Computer Vision & Deep Learning
 
@@ -69,7 +69,7 @@
   - Custom PyTorch `Dataset` & `DataLoader` pipelines handling missing ground-truth keypoint annotations.
   - Deep Convolutional Neural Network regressor with batch normalization, dropout, and MSE loss optimization.
   - Coordinate re-scaling and visual validation of predicted landmark overlays.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/facial-keypoint-detection-with-deep-learning) | [Local Project Folder](computer-vision/01-facial-keypoints-detection/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/facial-keypoint-detection-with-deep-learning) | [Local Project Folder](computer-vision/01-facial-keypoints-detection/)
 
 ---
 
@@ -81,7 +81,7 @@
   - End-to-end 2D Convolutional Neural Network with Conv2D, MaxPooling2D, Dropout regularization, and Dense classification head.
   - Image normalization, data reshaping, and categorical cross-entropy loss tracking.
   - Detailed model evaluation with Confusion Matrix analysis and classification reports.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/digit-recognizer) | [Local Project Folder](computer-vision/02-digit-recognizer-mnist/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/digit-recognizer) | [Local Project Folder](computer-vision/02-digit-recognizer-mnist/)
 
 ---
 
@@ -106,7 +106,7 @@
 | **9** | `YearRemodAdd` | Remodel date (indicates recent upgrades) | Age / Modernity |
 | **10** | `TotRmsAbvGrd` | Total rooms above grade (excluding bathrooms) | Size / Space Allocation |
 
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/house-prices-prediction) | [Local Project Folder](tabular-ml/01-house-prices-regression/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/house-prices-prediction) | [Local Project Folder](tabular-ml/01-house-prices-regression/)
 
 ---
 
@@ -120,7 +120,7 @@
   - **Deck Proximity**: Decks B–D (adjacent to the boat deck) showed **>75%** survival, while Deck G dropped to **28%**.
   - **Fare Quintiles as Continuous Hierarchy**: Monotonic survival progression ($Q_1 = 21.8\% \rightarrow Q_5 = 64.2\%$).
 - **Modeling**: Weighted `VotingClassifier` combining `RandomForest`, `GradientBoosting`, and `SVC` tuned with `StratifiedKFold`.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/titanic-analysis) | [Local Project Folder](tabular-ml/02-titanic-survival-dynamics/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/titanic-analysis) | [Local Project Folder](tabular-ml/02-titanic-survival-dynamics/)
 
 ---
 
@@ -131,7 +131,7 @@
 - **Highlights**:
   - Robust preprocessing via `ColumnTransformer` and `Pipeline`: median imputation, `StandardScaler` for numeric amenities (`RoomService`, `Spa`, `VRDeck`), and `OneHotEncoder` for categorical signals.
   - Baseline model using `RandomForestClassifier` with complete validation evaluation (Accuracy Score, Classification Report).
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/spaceship-titanic-machine-learning) | [Local Project Folder](tabular-ml/03-spaceship-titanic/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/spaceship-titanic-machine-learning) | [Local Project Folder](tabular-ml/03-spaceship-titanic/)
 
 ---
 
@@ -145,7 +145,7 @@
   - **Dominant Weekly Seasonality**: Autoregressive evaluation reveals `lag_7` (same day of prior week) and `rmean_7` (7-day rolling mean) as highest-importance features.
   - **Exogenous Features**: Integrated crude oil prices (Ecuador economic proxy), regional holidays, calendar effects, and daily store transaction traffic.
   - **Variance Stabilization**: Target transformation via $\log(1 + y)$ (`log1p`) to dampen extreme variance in volatile retail categories and optimize RMSLE.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/store-sales-time-series-forecasting) | [Local Project Folder](time-series/01-store-sales-forecasting/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/store-sales-time-series-forecasting) | [Local Project Folder](time-series/01-store-sales-forecasting/)
 
 ---
 
@@ -161,7 +161,7 @@
   - **Geographic Red Zones**: Identified high-revenue territories generating net financial deficits caused by regional logistics and localized discounting practices.
   - **The November Paradox**: Highest annual gross sales coincide with squeezed operating profit due to aggressive Black Friday discount slashing.
   - **Logistical Inefficiencies**: First Class & Same Day shipping disproportionately compress margin thresholds compared to Standard Class.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/superstore-sales-analysis) | [Local Project Folder](business-intelligence-eda/01-superstore-sales-analysis/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/superstore-sales-analysis) | [Local Project Folder](business-intelligence-eda/01-superstore-sales-analysis/)
 
 ---
 
@@ -175,7 +175,7 @@
   - **Optimal Publishing Window**: Highest velocity momentum is achieved between **11:00 and 17:00 UTC**, peaking at **14:00 UTC** (synchronizing US & European peak hours).
   - **Viral Threshold**: Statistically isolated at **85.9 Million views** (95th percentile).
   - **Predictive Pipeline**: `RandomForestClassifier` trained within an end-to-end `ColumnTransformer` pipeline.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/youtube-video-analytics) | [Local Project Folder](business-intelligence-eda/02-youtube-content-analytics/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/youtube-video-analytics) | [Local Project Folder](business-intelligence-eda/02-youtube-content-analytics/)
 
 ---
 
@@ -189,11 +189,11 @@
   - Systematic parsing of conversation trees and JSON conversational exchanges.
   - Evaluation of model verbosity bias (length vs winning probability) and sentiment correlation.
   - Logistic regression baseline modeling predicting preference labels from engineered textual features.
-- 🔗 **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/llm-classification-finetuning) | [Local Project Folder](nlp-llm/01-llm-chatbot-arena-classification/)
+- **Notebook**: [View on Kaggle](https://www.kaggle.com/code/maximendacleu/llm-classification-finetuning) | [Local Project Folder](nlp-llm/01-llm-chatbot-arena-classification/)
 
 ---
 
-## 🛠️ Tech Stack Overview
+## Tech Stack Overview
 
 All badges are displayed in Shields.io **flat style**:
 
@@ -208,7 +208,7 @@ All badges are displayed in Shields.io **flat style**:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```plaintext
 kaggle-notebooks/
@@ -248,7 +248,7 @@ kaggle-notebooks/
 
 ---
 
-## 💻 Getting Started Locally
+## Getting Started Locally
 
 ### 1. Clone the repository
 ```bash
@@ -280,16 +280,16 @@ jupyter lab
 
 ---
 
-## 👤 Author & Connect
+## Author & Connect
 
 **Maxime Ndacleu**  
 Data Science & Machine Learning Practitioner
 
-- 🌐 **Kaggle**: [@maximendacleu](https://www.kaggle.com/maximendacleu)
-- 🐙 **GitHub**: [@maximendacleu](https://github.com/maximendacleu)
+- **Kaggle**: [@maximendacleu](https://www.kaggle.com/maximendacleu)
+- **GitHub**: [@maximendacleu](https://github.com/maximendacleu)
 
 ---
 
 <div align="center">
-  <sub>⭐ If you find these notebooks helpful or educational, consider starring this repository and upvoting on Kaggle!</sub>
+  <sub>If you find these notebooks helpful or educational, consider starring this repository and upvoting on Kaggle!</sub>
 </div>

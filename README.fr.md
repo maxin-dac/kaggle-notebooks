@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏆 Portfolio Kaggle : Data Science & Machine Learning
+# Portfolio Kaggle : Data Science & Machine Learning
 
 [![Switch to English](https://img.shields.io/badge/Language-English-blue?style=flat&logo=googletranslate&logoColor=white)](README.md)
 [![Profil Kaggle](https://img.shields.io/badge/Kaggle-maximendacleu-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/maximendacleu)
@@ -16,10 +16,10 @@
 
 ---
 
-## 📌 Table des Matières
+## Table des Matières
 
-- [Vue d'ensemble & Accès Rapide](#-matrice-du-portfolio)
-- [Projets par Domaine](#-projets-par-domaine)
+- [Vue d'ensemble & Accès Rapide](#matrice-du-portfolio)
+- [Projets par Domaine](#projets-par-domaine)
   - [1. Vision par Ordinateur & Deep Learning](#1-vision-par-ordinateur--deep-learning)
     - [Détection des Points Clés Faciaux](#-détection-des-points-clés-faciaux-avec-deep-learning)
     - [Reconnaissance de Chiffres Manuscrits (MNIST CNN)](#-reconnaissance-de-chiffres-manuscrits---mnist-cnn)
@@ -34,14 +34,14 @@
     - [Analyse de Performance Vidéo YouTube & Viralité](#-performance-de-contenu-youtube--eda-machine-learning--stratégie)
   - [5. NLP & Modèles de Langage (LLM)](#5-nlp--modèles-de-langage-llm)
     - [Classification & Préférences Humaines (Chatbot Arena)](#-classification-et-fine-tuning-llm-chatbot-arena)
-- [Aperçu de la Stack Technique](#-vue-densemble-de-la-stack-technique)
-- [Structure du Dépôt](#-structure-du-dépôt)
-- [Installation & Exécution en Local](#-installation--démarrage-local)
-- [Auteur & Contact](#-auteur--contact)
+- [Vue d'ensemble de la Stack Technique](#vue-densemble-de-la-stack-technique)
+- [Structure du Dépôt](#structure-du-dépôt)
+- [Installation & Démarrage Local](#installation--démarrage-local)
+- [Auteur & Contact](#auteur--contact)
 
 ---
 
-## 🚀 Matrice du Portfolio
+## Matrice du Portfolio
 
 | Projet | Domaine | Stack Technique | Notebook Kaggle |
 | :--- | :--- | :--- | :---: |
@@ -57,7 +57,7 @@
 
 ---
 
-## 📂 Projets par Domaine
+## Projets par Domaine
 
 ### 1. Vision par Ordinateur & Deep Learning
 
@@ -69,7 +69,7 @@
   - Conception de `Dataset` et `DataLoader` PyTorch personnalisés gérant les annotations partielles / valeurs manquantes.
   - Architecture de régression CNN profonde avec normalisation par lots (BatchNorm), régularisation par Dropout et fonction de coût MSE.
   - Normalisation/dénormalisation des coordonnées et projection graphique des repères prédits sur les visages de test.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/facial-keypoint-detection-with-deep-learning) | [Dossier du projet](computer-vision/01-facial-keypoints-detection/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/facial-keypoint-detection-with-deep-learning) | [Dossier du projet](computer-vision/01-facial-keypoints-detection/)
 
 ---
 
@@ -81,7 +81,7 @@
   - Pipeline CNN 2D complet avec couches convolutives (`Conv2D`), sous-échantillonnage (`MaxPooling2D`), régularisation par `Dropout` et tête dense avec fonction d'activation `Softmax`.
   - Normalisation des valeurs de pixels et suivi rigoureux de la perte d'entropie croisée catégorielle.
   - Analyse approfondie des prédictions via matrice de confusion et rapport de classification détaillé.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/digit-recognizer) | [Dossier du projet](computer-vision/02-digit-recognizer-mnist/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/digit-recognizer) | [Dossier du projet](computer-vision/02-digit-recognizer-mnist/)
 
 ---
 
@@ -106,7 +106,7 @@
 | **9** | `YearRemodAdd` | Date de dernière rénovation majeure | Rénovation / Modernité |
 | **10** | `TotRmsAbvGrd` | Nombre total de pièces hors-sol (hors salles de bain) | Espace / Organisation des pièces |
 
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/house-prices-prediction) | [Dossier du projet](tabular-ml/01-house-prices-regression/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/house-prices-prediction) | [Dossier du projet](tabular-ml/01-house-prices-regression/)
 
 ---
 
@@ -120,7 +120,7 @@
   - **Proximité du Pont de Sauvetage (Deck)** : Les ponts B à D affichent un taux de survie supérieur à **75%**, tandis que le pont G s'effondre à **28%**.
   - **Les Quintiles de Tarif comme Proxy de Hiérarchie** : La survie progresse de façon strictement croissante avec le prix du billet ($Q_1 = 21.8\% \rightarrow Q_5 = 64.2\%$).
 - **Modélisation** : Ensemble pondéré (`VotingClassifier`) combinant `RandomForest`, `GradientBoosting` et `SVC`, validé par validation croisée stratifiée (`StratifiedKFold`).
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/titanic-analysis) | [Dossier du projet](tabular-ml/02-titanic-survival-dynamics/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/titanic-analysis) | [Dossier du projet](tabular-ml/02-titanic-survival-dynamics/)
 
 ---
 
@@ -131,7 +131,7 @@
 - **Points Forts** :
   - Pipeline modulaire scikit-learn (`ColumnTransformer`, `Pipeline`) assurant l'imputation par médiane, la standardisation des dépenses (`RoomService`, `Spa`, etc.) et l'encodage `OneHotEncoder`.
   - Entraînement d'une Forêt Aléatoire (`RandomForestClassifier`) avec métriques complètes d'évaluation.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/spaceship-titanic-machine-learning) | [Dossier du projet](tabular-ml/03-spaceship-titanic/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/spaceship-titanic-machine-learning) | [Dossier du projet](tabular-ml/03-spaceship-titanic/)
 
 ---
 
@@ -145,7 +145,7 @@
   - **Saisonnalité Hebdomadaire Dominante** : La variable de décalage `lag_7` (ventes du même jour la semaine précédente) et la moyenne mobile `rmean_7` constituent les moteurs prédictifs principaux.
   - **Signaux Exogènes** : Intégration du cours du pétrole brut (baromètre économique équatorien), des jours fériés locaux et nationaux, et des volumes de transactions en caisse.
   - **Stabilisation de la Variance** : Transformation logarithmique de la cible $\log(1 + y)$ (`log1p`) afin de réduire la forte asymétrie des ventes et optimiser l'erreur RMSLE.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/store-sales-time-series-forecasting) | [Dossier du projet](time-series/01-store-sales-forecasting/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/store-sales-time-series-forecasting) | [Dossier du projet](time-series/01-store-sales-forecasting/)
 
 ---
 
@@ -161,7 +161,7 @@
   - **Zones Géographiques Rouges** : Détection d'États à fort volume de vente mais à résultat net négatif, révélant des surcoûts d'expédition ou une politique de remises incontrôlée.
   - **Le Paradoxe de Novembre** : Mois réalisant le plus fort chiffre d'affaires de l'année, mais dégageant un bénéfice inférieur à septembre ou décembre en raison des promotions excessives du Black Friday.
   - **Coûts Logistiques** : Les modes de livraison accélérés (First Class / Same Day) réduisent drastiquement le taux de marge nette comparés à la livraison standard.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/superstore-sales-analysis) | [Dossier du projet](business-intelligence-eda/01-superstore-sales-analysis/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/superstore-sales-analysis) | [Dossier du projet](business-intelligence-eda/01-superstore-sales-analysis/)
 
 ---
 
@@ -175,7 +175,7 @@
   - **Créneau Optimal de Publication** : Pic d'impact maximal observé entre **11h00 et 17h00 UTC**, avec un sommet à **14h00 UTC** (synchronisation des heures d'activité Europe et Amérique du Nord).
   - **Seuil de Viralité Statistique** : Isolé empiriquement au-delà de **85.9 Millions de vues** (95e centile).
   - **Pipeline Prédictif** : Modélisation via `RandomForestClassifier` encapsulée dans une `Pipeline` scikit-learn avec `ColumnTransformer`.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/youtube-video-analytics) | [Dossier du projet](business-intelligence-eda/02-youtube-content-analytics/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/youtube-video-analytics) | [Dossier du projet](business-intelligence-eda/02-youtube-content-analytics/)
 
 ---
 
@@ -189,11 +189,11 @@
   - Parsing et traitement de structures textuelles imbriquées au format JSON.
   - Analyse du biais de longueur (la verbosité influence-t-elle la probabilité de victoire d'un LLM ?).
   - Établissement d'une baseline prédictive de préférence par Régression Logistique.
-- 🔗 **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/llm-classification-finetuning) | [Dossier du projet](nlp-llm/01-llm-chatbot-arena-classification/)
+- **Notebook** : [Voir sur Kaggle](https://www.kaggle.com/code/maximendacleu/llm-classification-finetuning) | [Dossier du projet](nlp-llm/01-llm-chatbot-arena-classification/)
 
 ---
 
-## 🛠️ Vue d'ensemble de la Stack Technique
+## Vue d'ensemble de la Stack Technique
 
 Tous les badges ci-dessous sont au style Shields.io **flat** :
 
@@ -208,7 +208,7 @@ Tous les badges ci-dessous sont au style Shields.io **flat** :
 
 ---
 
-## 📁 Structure du Dépôt
+## Structure du Dépôt
 
 ```plaintext
 kaggle-notebooks/
@@ -248,7 +248,7 @@ kaggle-notebooks/
 
 ---
 
-## 💻 Installation & Démarrage Local
+## Installation & Démarrage Local
 
 ### 1. Cloner le dépôt
 ```bash
@@ -280,16 +280,16 @@ jupyter lab
 
 ---
 
-## 👤 Auteur & Contact
+## Auteur & Contact
 
 **Maxime Ndacleu**  
 Data Scientist & Machine Learning Practitioner
 
-- 🌐 **Kaggle** : [@maximendacleu](https://www.kaggle.com/maximendacleu)
-- 🐙 **GitHub** : [@maximendacleu](https://github.com/maximendacleu)
+- **Kaggle** : [@maximendacleu](https://www.kaggle.com/maximendacleu)
+- **GitHub** : [@maximendacleu](https://github.com/maximendacleu)
 
 ---
 
 <div align="center">
-  <sub>⭐ Si vous appréciez ces travaux ou les trouvez utiles, n'hésitez pas à laisser une étoile sur GitHub et un upvote sur Kaggle !</sub>
+  <sub>Si vous appréciez ces travaux ou les trouvez utiles, n'hésitez pas à laisser une étoile sur GitHub et un upvote sur Kaggle !</sub>
 </div>

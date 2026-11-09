@@ -8,10 +8,10 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 
-## 🎯 Objective
+## Objective
 Classify handwritten digits (between 0 and 9) from $28 \times 28$ grayscale images with high generalization accuracy on the Kaggle Digit Recognizer competition.
 
-## 🧠 Methodology & Architecture
+## Methodology & Architecture
 - **Preprocessing**: Grayscale pixel normalization ($[0, 255] \rightarrow [0.0, 1.0]$), reshaping to $(28, 28, 1)$, and one-hot encoding of target class labels.
 - **CNN Architecture**:
   - Multiple `Conv2D` feature extraction layers with ReLU activations.
@@ -20,5 +20,5 @@ Classify handwritten digits (between 0 and 9) from $28 \times 28$ grayscale imag
   - Dense classification layers terminating in a 10-way `Softmax` output.
 - **Evaluation**: Confusion matrix visualization, precision/recall per digit, and classification report.
 
-## 🔗 Kaggle Link
+## Kaggle Link
 Direct link to the notebook: [digit-recognizer](https://www.kaggle.com/code/maximendacleu/digit-recognizer)
